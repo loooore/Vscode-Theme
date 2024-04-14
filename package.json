@@ -1,0 +1,27 @@
+{
+  "name": "loooore",
+  "displayName": "Hollow Knight Theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": ["hollow knight", "hollow", "knight", "dark", "full dark"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loooore/Vscode-Theme"
+  },
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Hollow Knight Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hollow-knight-color-theme.json"
+      }
+    ]
+  }
+}
